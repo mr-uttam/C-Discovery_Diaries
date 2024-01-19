@@ -1,17 +1,12 @@
-// P22-Grade_Assignment.C
-// Description: Assigns a grade based on the entered marks within a specified range.
 
 #include<stdio.h>
 
 int main(){
-    // Declare variable for user input (n)
     int n;
 
-    // Get user input for marks
     printf("Enter marks: ");
     scanf("%d", &n);
 
-    // Assign grades based on the specified range
     if (n <= 100 && n >= 90) {
         printf("Excellent");
     }
@@ -37,6 +32,5 @@ int main(){
         printf("Your data does not match");
     }	
 
-    // Return 0 to indicate successful execution
     return 0;	
 }
