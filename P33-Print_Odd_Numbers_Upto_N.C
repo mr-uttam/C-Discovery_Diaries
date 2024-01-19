@@ -7,8 +7,8 @@ int main(){
     // Declare variables for loop control (i) and user input (n)
     int i, n;
 
-    // Get user input for the last number
-    printf("Enter the last number: ");
+    // Get user input for the number
+    printf("Enter the number: ");
     scanf("%d", &n);
 
     // Use a loop to print odd numbers from 1 to n
