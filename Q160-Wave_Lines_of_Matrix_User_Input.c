@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // Initialize variables for matrix dimensions
+   
     int m, n;
 
     // Get dimensions and elements of the matrix from the user
